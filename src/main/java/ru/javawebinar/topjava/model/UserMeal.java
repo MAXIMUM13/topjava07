@@ -7,6 +7,7 @@ import java.time.LocalDateTime;
  * 11.01.2015.
  */
 public class UserMeal {
+
     protected final LocalDateTime dateTime;
 
     protected final String description;
@@ -20,14 +21,14 @@ public class UserMeal {
     }
 
     public LocalDateTime getDateTime() {
-        return dateTime;
+        return this.dateTime;
     }
 
     public String getDescription() {
-        return description;
+        return this.description;
     }
 
     public int getCalories() {
-        return calories;
+        return this.calories;
     }
 }
