@@ -31,4 +31,13 @@ public class UserMeal {
     public int getCalories() {
         return this.calories;
     }
+
+    @Override
+    public String toString() {
+        return "UserMeal{" +
+                "dateTime=" + this.dateTime +
+                ", description='" + this.description + '\'' +
+                ", calories=" + this.calories +
+                '}';
+    }
 }
